@@ -1,6 +1,6 @@
 angular.module("weatherApp")
 .service('mainService', function($http){
-  var baseUrl = "http://api.openweathermap.org/data/2.5";
+  var baseUrl = "https://api.openweathermap.org/data/2.5";
 
   this.getTodayWeather = function(zipCode){
     return $http({

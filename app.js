@@ -8,7 +8,7 @@ angular.module("weatherApp", ['ngAnimate', "ui.router"])
       })
       .state("forecast", {
         url: "/forecast",
-        templateUrl: "/forecast/forecast.html",
+        templateUrl: "forecast/forecast.html",
         controller: "forecastCtrl"
 
       })
